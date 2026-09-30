@@ -35,13 +35,30 @@ pygmentsUseClasses = true
   showtoc = true
   tocopen = false
 
-  [params.homeInfoParams]
-    Title = "ch3sksec"
-    Content = "Red team notes, certification reviews, and offensive security write-ups."
+  [params.profileMode]
+    enabled = true
+    title = "ch3sk-sec"
+    subtitle = "Red team notes, certification reviews, and offensive security write-ups."
+    imageUrl = "logoBlack.png"
+    imageWidth = 120
+    imageHeight = 120
+    imageTitle = "ch3sksec logo"
+
+    [[params.profileMode.buttons]]
+      name = "Posts"
+      url = "/posts/"
+
+    [[params.profileMode.buttons]]
+      name = "About"
+      url = "/about/"
 
   [[params.socialIcons]]
     name = "github"
     url = "https://github.com/ch3sk1e"
+  
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://linkedin.com/in/francesco-piscitelli-12253367/"
 
 [[menu.main]]
   identifier = 'posts'
